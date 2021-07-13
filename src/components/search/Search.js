@@ -42,7 +42,7 @@ export default function Search() {
 
   const url =
     "https://gnews.io/api/v4/search?q=&token=" +
-    `${process.env.REACT_APP_API_KEY}`;
+    `${process.env.REACT_APP_GNEWS_API_KEY}`;
 
   const getQuery = async () => {
     let searchedValue = state.text;
