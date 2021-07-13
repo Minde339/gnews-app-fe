@@ -37,7 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) to view app in the browser.
 
 ## Features
 
-- The application reads data from [this endpoint]('https://gnews.io/api/v4/search?q=example&token=API-Token').
+- The application reads data from ('https://gnews.io/api/v4/search?q=example&token=API-Token').
 - Data retrieved is shown as seperated Articles. (Limited Value to 9 Articles)
 - Article Description is truncated with ellipsis if description reaches more than 125 characters.
 - Search Input is validated to allow only alphanumeric + space characters up to 40 characters.
